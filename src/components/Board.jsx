@@ -37,7 +37,7 @@ export function Board({ turnForX, boxes, makeMove }) {
 				{[1, 2, 3, 4, 5, 6, 7, 8, 9].map((_, i) => (
 					<button
 						key={i}
-						className='border border-slate-500 text-3xl font-bold outline-none cursor-pointer sm:h-[120px] hover:bg-slate-200 duration-200 hover:scale-95'
+						className='border border-slate-500 text-3xl font-bold outline-none cursor-pointer h-[100px] sm:h-[120px] hover:bg-slate-200 duration-200 hover:scale-95'
 						onClick={() => handleClick(i)}
 					>
 						{boxes[i]}
